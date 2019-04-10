@@ -1,0 +1,120 @@
+
+
+.container{
+    /* width: 960px; */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.main{
+    background-image: url(assets/images/prism.png) !important;
+    /* height: 900px; */
+    padding: 30px; 
+    
+}
+
+.section {
+    background-color: white;
+    width: 960px;
+    padding: 40px;
+    height: 750px;
+    color: #777777;
+    margin: 0 auto 0 auto;
+
+}
+
+.bg-light{
+    background-color: #ffffff !important;
+    border: 1px solid #cccccc;
+}
+
+.name{
+    background-color: #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    color: white !important; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto 0 74px;
+}
+
+
+h2{
+    color: #4aaaa5;
+    background-color: #fff;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.content {
+    background-color: #fff;
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+
+
+.footer{
+    background-color: #666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5 !important;
+    border: 1px solid #cccccc;
+}
+
+
+.img-thumbnail {
+    float:left;
+    margin-right: 20px;
+}
+
+.form-group{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+@media screen and (max-width: 1200px){
+    
+    .name{
+        margin: 0 auto 0 223px;
+    }
+    
+    .section{
+        width: 480px;
+        height: 900px;
+    }
+
+    .main{
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+    .name{
+        margin: 0 auto 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    
+    .name{
+        margin: 0 auto 0 30px;
+    }
+
+    .section{
+        width: 300px;
+        height: 1500px;
+    
+    }
+
+    .main{
+        height: 1900px;
+    }
+}
