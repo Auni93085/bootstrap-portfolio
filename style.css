@@ -1,4 +1,6 @@
-
+body{
+    line-height: 2.0;
+}
 
 .container{
     /* width: 960px; */
@@ -10,7 +12,6 @@
     background-image: url(assets/images/prism.png) !important;
     /* height: 900px; */
     padding: 30px; 
-    
 }
 
 .section {
@@ -20,7 +21,6 @@
     height: 750px;
     color: #777777;
     margin: 0 auto 0 auto;
-
 }
 
 .bg-light{
@@ -37,7 +37,6 @@
     margin: 0 auto 0 74px;
 }
 
-
 h2{
     color: #4aaaa5;
     background-color: #fff;
@@ -45,15 +44,11 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
 .content {
     background-color: #fff;
     padding-left: 30px;
     line-height: 30px;
 }
-
-
 
 .footer{
     background-color: #666666;
@@ -61,7 +56,6 @@ h2{
     border-top: 8px solid #4aaaa5 !important;
     border: 1px solid #cccccc;
 }
-
 
 .img-thumbnail {
     float:left;
@@ -111,7 +105,6 @@ p{
     .section{
         width: 300px;
         height: 1500px;
-    
     }
 
     .main{
